@@ -14,6 +14,11 @@
 		5327A01C1AC03B5B008DD81C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5327A01B1AC03B5B008DD81C /* Images.xcassets */; };
 		5327A01F1AC03B5B008DD81C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5327A01D1AC03B5B008DD81C /* LaunchScreen.xib */; };
 		5327A02B1AC03B5B008DD81C /* ChatCoreTextEngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5327A02A1AC03B5B008DD81C /* ChatCoreTextEngineTests.m */; };
+		5327A0361AC03B7A008DD81C /* RichTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5327A0351AC03B7A008DD81C /* RichTextView.m */; };
+		5327A03B1AC429E2008DD81C /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5327A0371AC429E2008DD81C /* 1.gif */; };
+		5327A03C1AC429E2008DD81C /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5327A0381AC429E2008DD81C /* 2.gif */; };
+		5327A03D1AC429E2008DD81C /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5327A0391AC429E2008DD81C /* 3.gif */; };
+		5327A03E1AC429E2008DD81C /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5327A03A1AC429E2008DD81C /* 4.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		5327A0241AC03B5B008DD81C /* ChatCoreTextEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatCoreTextEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5327A0291AC03B5B008DD81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5327A02A1AC03B5B008DD81C /* ChatCoreTextEngineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatCoreTextEngineTests.m; sourceTree = "<group>"; };
+		5327A0341AC03B7A008DD81C /* RichTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextView.h; sourceTree = "<group>"; };
+		5327A0351AC03B7A008DD81C /* RichTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextView.m; sourceTree = "<group>"; };
+		5327A0371AC429E2008DD81C /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		5327A0381AC429E2008DD81C /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		5327A0391AC429E2008DD81C /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		5327A03A1AC429E2008DD81C /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,16 @@
 		5327A00D1AC03B5B008DD81C /* ChatCoreTextEngine */ = {
 			isa = PBXGroup;
 			children = (
+				5327A0371AC429E2008DD81C /* 1.gif */,
+				5327A0381AC429E2008DD81C /* 2.gif */,
+				5327A0391AC429E2008DD81C /* 3.gif */,
+				5327A03A1AC429E2008DD81C /* 4.gif */,
 				5327A0121AC03B5B008DD81C /* AppDelegate.h */,
 				5327A0131AC03B5B008DD81C /* AppDelegate.m */,
 				5327A0151AC03B5B008DD81C /* ViewController.h */,
 				5327A0161AC03B5B008DD81C /* ViewController.m */,
+				5327A0341AC03B7A008DD81C /* RichTextView.h */,
+				5327A0351AC03B7A008DD81C /* RichTextView.m */,
 				5327A0181AC03B5B008DD81C /* Main.storyboard */,
 				5327A01B1AC03B5B008DD81C /* Images.xcassets */,
 				5327A01D1AC03B5B008DD81C /* LaunchScreen.xib */,
@@ -199,9 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5327A03D1AC429E2008DD81C /* 3.gif in Resources */,
 				5327A01A1AC03B5B008DD81C /* Main.storyboard in Resources */,
+				5327A03C1AC429E2008DD81C /* 2.gif in Resources */,
 				5327A01F1AC03B5B008DD81C /* LaunchScreen.xib in Resources */,
+				5327A03B1AC429E2008DD81C /* 1.gif in Resources */,
 				5327A01C1AC03B5B008DD81C /* Images.xcassets in Resources */,
+				5327A03E1AC429E2008DD81C /* 4.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +243,7 @@
 				5327A0171AC03B5B008DD81C /* ViewController.m in Sources */,
 				5327A0141AC03B5B008DD81C /* AppDelegate.m in Sources */,
 				5327A0111AC03B5B008DD81C /* main.m in Sources */,
+				5327A0361AC03B7A008DD81C /* RichTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +434,7 @@
 				5327A0301AC03B5B008DD81C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5327A0311AC03B5B008DD81C /* Build configuration list for PBXNativeTarget "ChatCoreTextEngineTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				5327A0331AC03B5B008DD81C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
